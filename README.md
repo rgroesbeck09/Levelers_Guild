@@ -17,3 +17,12 @@ Created simple castle model that includes:
     - Name: Brick Textures (LITE) FREE
     - Created by: SR Studios Kerala
     - Link: https://assetstore.unity.com/packages/2d/textures-materials/brick-textures-lite-free-289917
+
+Terrain:
+Created terrain that includes mountain range surrounding the area, hills, low spots, and areas with water (created with a flat plane). Water areas included several small lakes and a moat around Baron's Castle. At the shore of the lake, added a small boat. Painted texture of grass/moss, dirt/dry grass, and stone to create a realistic environment. This included multiple paths painted on the ground. Created water and wood materials for the lakes/moat and boat. 
+- Grass Material: from manytextures.com https://www.manytextures.com/texture/1/green-grass/
+- Dirt/Dry grass Material: from manytextures.com https://www.manytextures.com/texture/53/dry-grass-ground/
+- Stone Material: from manytextures.com https://www.manytextures.com/texture/130/mountain-rock/
+- Water Texture and Normal map: water0339 from CADhatch.com https://www.cadhatch.com/seamless-water-textures
+- Wood Texture: from TextureLabs.org https://texturelabs.org/textures/wood_259/
+- Boat Model: by garleth93 on Free3D.com https://free3d.com/3d-model/boat-model-436261.html
