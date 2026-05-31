@@ -1,5 +1,7 @@
 # Levelers\_Guild
 
+Team: Raymond Groesbeck, Amanda Bragg, Chris Arvizu, Valeria Ugarte
+
 Project 1
 
 Follow Camera:
