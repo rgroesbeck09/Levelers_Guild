@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639157948017819600
-    m_Hash: 3001020010
+      ticks: 639157990598204182
+    m_Hash: 3556567701
   m_LockFileStatus:
     m_FilePath: C:/Users/rgroe/Documents/Arizona/GAME351/Levelers_Guild/Program1/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639157948291756416
-    m_Hash: 4145021098
+      ticks: 639157990598209180
+    m_Hash: 3775639558
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
