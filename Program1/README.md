@@ -1,6 +1,6 @@
 # Levelers\_Guild
 
-Game 351 group projects
+Project 1
 
 Follow Camera:
 set x,y,z coordinates so camera is behind Jambo
