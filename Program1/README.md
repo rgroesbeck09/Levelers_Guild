@@ -39,7 +39,10 @@ Trees:
 I tracked down some tree designs and added them to the map. I used the tree brush tool that is available to me in the Unity IDE. I imported the trees into the tool and played around with the density and brush sizes. I was able to then paint ten paint the trees using around 7 to 10 different styles of trees.
 
 * Trees:
+  * https://cloud.unity.com/home/organizations/2475985092540/assets/my-asset-store-assets/asset-store?assetId=54622:1](https://assetstore.unity.com/packages/3d/vegetation/trees/realistic-tree-9-rainbow-tree-54622)
+  * https://assetstore.unity.com/packages/3d/vegetation/trees/realistic-tree-10-54724
 
-  * https://cloud.unity.com/home/organizations/2475985092540/assets/my-asset-store-assets/asset-store?assetId=54622:1
-  * https://cloud.unity.com/home/organizations/2475985092540/assets/my-asset-store-assets/asset-store?assetId=54724:1
+Village by the Lake:
+Created a village by the lake where our adorable little robot is spawned. From here he can walk up toward the castle or adventure around the forest.
 
+* Village: https://assetstore.unity.com/packages/3d/environments/fantasy/pbr-medieval-houses-pack-71546
