@@ -1,9 +1,3 @@
-/*
- *  Final Variables
- */
-const float DEFAULT_SPEED = 10;
-const int   DEFAULT_WIDTH = 10;
-const float DEFAULT_TURN = 10;
 
 /*
  *  This is an enum to signify what the car type is. 
@@ -24,8 +18,16 @@ public enum craft_type
  */
 ///
 
-public class Hovercraft :
+public class Hovercraft
 {
+    /*
+     *  Final Variables
+     */
+    private const float DEFAULT_SPEED = 10;
+    private const int DEFAULT_WIDTH = 10;
+    private const float DEFAULT_TURN = 10;
+
+
     // Hoverecraft Variables
     craft_type type;
     float speed;
@@ -53,14 +55,13 @@ public class Hovercraft :
     // TODO: Create a function to change the car type
     //        things to remember when changing the car type
     //        need to change speed, cornering as well as the type
-    public Change_Car_Type()
+    public void Change_Car_Type()
     { 
     
     }
 
-
     // TODO: Lazers
-    public laser_shot()
+    public void laser_shot()
     { 
     
     }
