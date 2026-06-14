@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Cross-Country Scene.unity
+=======
+- path: Assets/Saves.unity
+>>>>>>> b06ae48cddc2df71a53c60e6063490790a0ce79d
   isLoaded: 1
   isActive: 1
   isSubScene: 0

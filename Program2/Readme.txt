@@ -46,3 +46,10 @@ Freeware media assets were used from the following sources:
 (3) https://www.gameartguppy.com/
 (4) https://www.videvo.net/royalty-free-sound-effects/
 (5) https://freesound.org/search/
+
+
+Hovercraft types and laser gun - Christopher Garcia-Arvizu:
+Used provided hovercraft models and textures to create 3 visually distinct hovercraft models.
+Created C# script with 3 distinct hovercraft types (average, fast speed/slow cornering, and slow speed/fast cornering).
+Created C# script for laser gun on the average hovercraft type only that fires when pressing F. 
+

@@ -11,6 +11,7 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         // Hint: The global static variable "Terrain.activeTerrain" 
         // may be helpful or have useful methods for user here or in
         // other scripts.
