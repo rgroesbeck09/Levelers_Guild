@@ -8,12 +8,6 @@ public class Movement : MonoBehaviour
     public float rayDistance = 10f;
     public float rotationSpeed = 10f;
 
-
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
-
     // Update is called once per frame
     void Update()
     {
