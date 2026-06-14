@@ -47,9 +47,23 @@ public class Hovercraft : MonoBehaviour
 
     [SerializeField]
     private Transform shootPoint;
+    
+    //Variables for toggle
+    [SerializeField]
+    private Hovercraft[] hovercrafts;
+
+    [SerializeField]
+    private Camera mainCamera;
+
+    private static int activeCraft = 0;
 
     void Start()
     {
+	for(int i = 0; i < hovercrafts.Length; i++)
+	{
+	    hovercrafts[i].enabled = (i == activeCraft); 
+	}
+ 
         switch(type)
         {
             case craft_type.average:
@@ -72,6 +86,7 @@ public class Hovercraft : MonoBehaviour
 
     void Update()
     {
+	
         
     // shoot laser from average craft by pressing space
         if(type == craft_type.average)
@@ -82,6 +97,10 @@ public class Hovercraft : MonoBehaviour
                 laser_Shot();
             }
         }
+
+	if(Input.GetKeyDown(KeyCode.C))
+	{
+	    Change_Car_Type();
     }
 
     /*
@@ -105,13 +124,22 @@ public class Hovercraft : MonoBehaviour
     }
     */
 
-    // TODO: Create a function to change the car type
-    //        things to remember when changing the car type
-    //        need to change speed, cornering as well as the type
+    // Toggle between cars
     public void Change_Car_Type()
     { 
-    
+    	hovercrafts[activeCraft].enabled = false;
+	activeCraft = (activeCraft + 1) % hovercrafts.Length;
+	if(mainCamera != null)
+	{
+	   mainCamera.transform.position = 
+		hovercrafts[activeCraft].transform.position + new Vector3(0f, 10f, -10f);
+	   mainCamera.transform.LookAt(
+		hovercrafts[activeCraft}.transform
+	   );
+        }
+
     }
+	
 
     
     // shoot laser method
