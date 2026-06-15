@@ -47,6 +47,10 @@ Freeware media assets were used from the following sources:
 (4) https://www.videvo.net/royalty-free-sound-effects/
 (5) https://freesound.org/search/
 
+Hovervraft Movement - Raymond Groesbeck
+Implemented hovercraft movement by attaching listeners for the A and D keys (left/right), W and S (Forward/backward) to drive hovercraft. 
+The hovercraft travels over the landscape, moving and tilting per the terrain elevation. The camera for each hovercraft stays locked in 
+third person behind the active craft. The camera stays in synch with the hovercraft as it moves creating a follow camera effect. 
 
 Hovercraft types and laser gun - Christopher Garcia-Arvizu:
 Used provided hovercraft models and textures to create 3 visually distinct hovercraft models.
@@ -58,3 +62,8 @@ to the ship game object. In the script, this was done by having variables that c
 The Update() method runs each frame, and also uses Mathf.Sin() to create the movement that makes the ship appear to hover. 
 Used https://www.youtube.com/watch?v=6-pJu0GwK5k for help with writing some aspects of the code.
 
+Hovercraft toggling - Valeria Ugarte
+One hovercraft will be controlled at a time, cycle through hovercrafts by pressing the C key to change the active craft. The active craft
+will occupy the center of the screen, the camera will change positions when toggling through the hovercrafts. Active hovercraft will be drivable by 
+using WASD keys. Cycling continuously through cars by pressing C will switch between the amount of hovercrafts in the scene and loop back after toggling 
+through all of the crafts. 
